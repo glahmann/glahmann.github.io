@@ -1,6 +1,49 @@
 body {
+  background-image: url(bakerBlur.jpg);
+  font-family: sans-serif;
+  font-weight: 300;
   height: 100%;
   margin: 0;
   text-align: center;
   width: 100%;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+nav {
+  background-color: white;
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+  color: white;
+  padding-left: 30px;
+}
+
+nav li {
+  margin: 0;
+  display: inline;
+  padding: 0px 30px;
+}
+
+nav ul {
+  display: inline;
+
+}
+
+.contact-btn {
+  float: right;
+  margin-right: 30px;
+}
+
+nav a {
+  color: black;
+  height: 60px;
+  line-height: 60px;
+  text-decoration: none;
 }
