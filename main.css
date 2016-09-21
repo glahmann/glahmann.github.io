@@ -1,3 +1,9 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   background-image: url(bakerBlur.jpg);
   font-family: sans-serif;
