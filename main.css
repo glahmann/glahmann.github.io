@@ -25,16 +25,19 @@ p {
 
 nav {
   background-color: white;
-  background-position: center top;
   text-align: center;
-  color: white;
-  padding-left: 60px;
+  padding-left: 145px;
 }
 
 nav li {
   margin: 0;
   display: inline;
   padding: 0px 50px;
+}
+
+nav li a:active {
+  position: relative;
+  top: 2px;
 }
 
 nav ul {
@@ -44,7 +47,16 @@ nav ul {
 
 .contact-btn {
   float: right;
+}
+
+.contact-btn a {
   margin-right: 30px;
+  padding: 0px 50px;
+}
+
+.contact-btn a:active {
+  position: relative;
+  top: 2px;
 }
 
 nav a {
