@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-  background-image: url('bakerBlur.jpg');
+  background-image: url('./images/bakerBlur.jpg');
   background-size: cover;
   font-family: sans-serif;
   font-weight: 300;
